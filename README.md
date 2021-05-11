@@ -173,4 +173,4 @@ test files for all project types.
 ## Contributors
 * **Brennan D Baraban** - [bdbaraban](https://github.com/bdbaraban)
 * **Carlos Daniel Cortez** - [kael1706](https://github.com/kael1706)
-
+* **Samuel Martínez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
