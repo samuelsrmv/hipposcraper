@@ -1,5 +1,6 @@
 #!/usr/bin/env python2
-"""Main entry point for hipporead
+"""Fixed problems
+Main entry point for hipporead
 
 Usage:
     `./hipporead.py https://intranet.hbtn.io/projects/232`
@@ -51,7 +52,7 @@ def hipporead():
     r_scraper.write_info()
     r_scraper.write_tasks()
 
-    author = str(parse_data.json_data["author_name"])
+    author = str(parse_data.json_data["author_name"].encode('utf-8'))
     user = str(parse_data.json_data["github_username"])
     git_link = str(parse_data.json_data["github_profile_link"])
 
